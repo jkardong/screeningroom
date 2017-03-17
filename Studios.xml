@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<studios count="3" hka="505F5F57475204564F5E1052580B5F4D46">
+	<studio>
+		<studioName>Universal Studios</studioName>
+		<titleCount>10</titleCount>
+		<sd_img>http://assets.c2mx.com/95786e665c4944f509ef1f860b7bfd03c8de75652c343167925e2d5d/static/screeners/images/studio/Universal_Logo_SD.png</sd_img>
+		<hd_img>http://assets.c2mx.com/95786e665c4944f509ef1f860b7bfd03c8de75652c343167925e2d5d/static/screeners/images/studio/Universal_Logo_HD.png</hd_img>
+	</studio>
+	<studio>
+		<studioName>Warner Brothers</studioName>
+		<titleCount>2</titleCount>
+		<sd_img>http://assets.c2mx.com/95786e665c4944f509ef1f860b7bfd03c8de75652c343167925e2d5d/static/screeners/images/studio/Warner_Logo_SD.png</sd_img>
+		<hd_img>http://assets.c2mx.com/95786e665c4944f509ef1f860b7bfd03c8de75652c343167925e2d5d/static/screeners/images/studio/Warner_Logo_HD.png</hd_img>
+	</studio>
+	<studio>
+		<studioName>20th Century Fox</studioName>
+		<titleCount>6</titleCount>
+		<sd_img>http://assets.c2mx.com/95786e665c4944f509ef1f860b7bfd03c8de75652c343167925e2d5d/static/screeners/images/studio/Fox_Logo_SD.png</sd_img>
+		<hd_img>http://assets.c2mx.com/95786e665c4944f509ef1f860b7bfd03c8de75652c343167925e2d5d/static/screeners/images/studio/Fox_Logo_HD.png</hd_img>
+	</studio>
+</studios>

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{F6C578AD-B80E-42CE-A89F-5F7263F21E25}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>SSRS.Module1</StartupObject>
+    <RootNamespace>SSRS</RootNamespace>
+    <AssemblyName>SSRS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SSRS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SSRS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Source\Main.vb" />
+    <Compile Include="Source\utl_Dialog.vb" />
+    <Compile Include="Source\scr_ConfirmScreen.vb" />
+    <Compile Include="Source\scr_IDCodeScreen.vb" />
+    <Compile Include="Source\scr_MoviesScreen.vb" />
+    <Compile Include="Source\scr_PINScreen.vb" />
+    <Compile Include="Source\scr_Settings.vb" />
+    <Compile Include="Source\scr_SettingsDetail.vb" />
+    <Compile Include="Source\scr_Splash.vb" />
+    <Compile Include="Source\scr_SpringBoardScreen.vb" />
+    <Compile Include="Source\scr_VideoScreen.vb" />
+    <Compile Include="Source\scr_WelcomeScreen.vb" />
+    <Compile Include="Source\utl_Common.vb" />
+    <Compile Include="Source\scr_EmailScreen.vb" />
+    <Compile Include="Source\scr_StudiosScreen.vb" />
+    <Compile Include="Source\utl_Config.vb" />
+    <Compile Include="Source\utl_Registry.vb" />
+    <Compile Include="Source\utl_Validation.vb" />
+    <Compile Include="Source\utl_XML.vb" />
+    <Compile Include="Varsource\devver.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="builddev.zip" />
+    <None Include="manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Images\ChannelScreen\mm_icon_focus_hd.jpg" />
+    <Content Include="Images\ChannelScreen\mm_icon_focus_sd.jpg" />
+    <Content Include="Images\ChannelScreen\mm_icon_side_hd.jpg" />
+    <Content Include="Images\ChannelScreen\mm_icon_side_sd.jpg" />
+    <Content Include="Images\Publish\Chanel-Search_HD.jpg" />
+    <Content Include="Images\Publish\Chanel-Search_SD.jpg" />
+    <Content Include="Images\Splash\Splash_HD.png" />
+    <Content Include="Images\Splash\Splash_SD.png" />
+    <Content Include="Images\StudioScreen\Studio_Settings_HD.jpg" />
+    <Content Include="Images\StudioScreen\Studio_Settings_SD.jpg" />
+    <Content Include="Images\Theme\Custom\Disney_Overhang_HD.png" />
+    <Content Include="Images\Theme\Title_Bar_HD.png" />
+    <Content Include="Images\Theme\Title_Bar_SD.png" />
+    <Content Include="Content.xml" />
+    <Content Include="Studios.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

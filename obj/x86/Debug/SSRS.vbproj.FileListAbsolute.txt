@@ -1,0 +1,4 @@
+C:\Development\ssrs\SSRS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\ssrs\SSRS\obj\x86\Debug\SSRS.Resources.resources
+C:\Development\ssrs\SSRS\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Development\ssrs\SSRS\obj\x86\Debug\GenerateResource.write.1.tlog
